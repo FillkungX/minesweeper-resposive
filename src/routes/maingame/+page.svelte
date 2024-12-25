@@ -174,7 +174,7 @@
     <button class=" items-center justify-center bg-green-500 hover:bg-green-700 text-black text-[20px] font-bold rounded h-[40px] p-[3px] md:text-[30px] lg:h-[50px] lg:w-[170px] " on:click={spinWheel}> Spin For 200$ !</button>
   </div>
   </div>
-  <div class="flex flex-wrap items-center justify-center w-[230px] ml-[45px] -mt-[400px] sss:ml-[20vw] ss:ml-[22vw] ss:-mt-[420px] ss:w-[250px] sl:ml-[30vw] sl:-mt-[450px] md:w-[450px] md:ml-[22vw] md:-mt-[130vh]  lg:ml-[15vw] lg:-mt-[72vh] sxl:ml-[15vw] sxl:-mt-[58vh] xl:ml-[30vw]">
+  <div class="flex flex-wrap items-center justify-center w-[230px] ml-[45px] -mt-[400px] sss:ml-[20vw] ss:ml-[22vw] ss:-mt-[420px] ss:w-[250px] sl:ml-[30vw] sl:-mt-[450px] md:w-[450px] md:ml-[22vw] md:-mt-[130vh]  lg:ml-[14vw] lg:-mt-[55vh] sxl:ml-[15vw] sxl:-mt-[58vh] xl:ml-[30vw]">
     {#each board as row, rowIndex}
       {#each row as cell, colIndex}
         <button
